@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block heder %}
+<link rel="stylesheet" href="/static/css/index.css">
+<link rel="stylesheet" href="/static/css/blog.css">
+
+{% endblock heder %}
+{% block mainbody %}
+<script>
+	let body = document.getElementById("mainbody")
+	body.setAttribute("class", "blog custom-background et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_two_panels et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns3 et_cover_background et_pb_gutters3 et_smooth_scroll et_right_sidebar et_divi_theme et-db")
+</script>
+<div id="page-container">
+
+	<div id="et-main-area">
+
+		<div id="main-content">
+			<div class="container">
+				<div id="content-area" class="clearfix">
+					<div id="left-area">
+						<div id="chdiv00">
+						
+							<article id="post-8968"
+								class="et_pb_post post-8968 post type-post status-publish format-standard has-post-thumbnail hentry category-mbbs-admission-2023-24 category-medical-colleges-in-maharastra tag-mbbs-in-maharahtra tag-top-private-colleges-for-mbbs-in-maharashtra-2023-24">
+								
+									<img src="{{pg_dtails.post_image.url}}" alt="{{pg_dtails.post_alt_name }}" class="img-fluid" width="1080"
+										height="675" srcset="{{pg_dtails.blog_image.url}}"
+										sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 1080px, 100vw"
+										loading="lazy"> 
+
+								<h2 class="entry-title">{{pg_dtails.post_title}}</h2>
+
+								<p class="post-meta"> by <span class="author vcard">{{pg_dtails.author}}</span> |
+									<span class="published">{{pg_dtails.date}}</span> |
+								</p>
+                                <p>{{pg_dtails.description | safe}}</p>
+								<p>{{pg_dtails.post_meta_discreption |safe}}</p>
+							</article>
+							
+
+						</div>
+					</div>
+					{% include "need_help_addmitionform.html" %}
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+{% endblock mainbody %}

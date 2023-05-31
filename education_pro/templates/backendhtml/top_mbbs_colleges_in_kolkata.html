@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block heder %}
+<link rel="stylesheet" href="/static/css/index.css">
+
+<title>{{html_page_data.page_title}}</title>
+<meta name="description" content="{{html_page_data.meta_des}}">
+{% endblock heder %}
+{% block mainbody %}
+
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <h1 class="text-center fw-bold">{{html_page_data.first_heding_h1tag}}</h1><br>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {% for a in p_blogs %}
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <a href="/top-mbbs-in/{{a.htmlbcslug}}"><img src="{{a.post_image.url}}" alt="{{a.post_alt_name}}"></a>
+          <div class="card-body">
+
+            <p class="card-text fw-bold fs-5" id="sma">{{ a.post_title|truncatechars:70}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %} 
+
+    </div>
+  </div>
+</div>
+
+{% endblock mainbody %}

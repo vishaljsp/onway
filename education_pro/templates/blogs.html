@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block heder %}
+<link rel="stylesheet" href="/static/css/index.css">
+<link rel="stylesheet" href="/static/css/blog.css">
+
+
+<title> {{blogs.blog_title}}</title>
+<meta name="description" content="{{blogs.blog_meta_discreption}}">
+<link rel="canonical" href="/{{blogs.slug}}">
+{% comment %} <meta name="keywords" content="{{blogs.blog_meta_keyword}}"> {% endcomment %}
+<meta property="og:title" content="{{blogs.blog_title}}">
+<meta property="og:site_name" content="futeducation">
+<meta property="og:url" content="/{{blogs.slug}}">
+<meta property="og:description" content="{{blogs.blog_meta_og_discreption}}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{blogs.blog_image.url}}">
+<meta property="og:image:width" content="950" />
+<meta property="og:image:height" content="550" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:locale" content="en_US" />
+
+<meta property="article:publisher" content="https://www.facebook.com/futureeducationdelhi" />
+<meta property="article:published_time" content="{{blogs.date}}" />
+<meta property="article:modified_time" content="{{blogs.date}}" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@Futeducation" />
+
+<meta name="twitter:site" content="@BlogWithWorld">
+<meta name="twitter:title" content="{{blogs.blog_title}}">
+<meta name="twitter:description" content="{{blogs.blog_meta_discreption}}">
+<meta name="twitter:image" content="{{blogs.blog_emage.url}}">
+<meta name="twitter:site" content="@Futeducation" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Future Education" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="4 minutes" />
+
+<meta itemprop="title" content="{{blogs.blog_title}}">
+<meta itemprop="description" content="{{blogs.blog_meta_discreption}}">
+<meta name="author" content="{{blogs.author}}" />
+
+{% endblock heder %}
+{% block mainbody %}
+<script>
+	let body = document.getElementById("mainbody")
+	body.setAttribute("class", "blog custom-background et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_two_panels et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns3 et_cover_background et_pb_gutters3 et_smooth_scroll et_right_sidebar et_divi_theme et-db")
+</script>
+<div id="page-container">
+
+	<div id="et-main-area">
+
+		<div id="main-content">
+			<div class="container">
+				<div id="content-area" class="clearfix">
+					<div id="left-area">
+						<div id="chdiv00">
+                            <article id="post-8968" class="et_pb_post post-8968 post type-post status-publish format-standard has-post-thumbnail hentry category-mbbs-admission-2023-24 category-medical-colleges-in-maharastra tag-mbbs-in-maharahtra tag-top-private-colleges-for-mbbs-in-maharashtra-2023-24">
+
+								<h1 class="entry-title">{{blogs.blog_title}}</h1>
+
+								<p class="post-meta"> by <span class="author vcard">{{blogs.author}} {{blogs.date}}</span> |
+                            <img src="{{blogs.blog_image.url}}" alt="{{blogs.blog_alt_name }}" class="" width="1080"
+                                height="675" srcset="{{blogs.blog_image.url}}"
+                                sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 1080px, 100vw"
+                                loading="lazy">
+
+                           
+
+                            </p>
+                            <p>{{blogs.blog_content | safe}}</p>
+                        </article>
+
+						</div>						
+					</div>
+					{% include "need_help_addmitionform.html" %}
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+
+{% endblock mainbody %}
+
+
+
+

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block heder %}
+<link rel="stylesheet" href="/static/css/index.css">
+<link rel="stylesheet" href="/static/css/blog.css">
+
+{% endblock heder %}
+{% block mainbody %}
+<script>
+	let body = document.getElementById("mainbody")
+	body.setAttribute("class", "blog custom-background et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_two_panels et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns3 et_cover_background et_pb_gutters3 et_smooth_scroll et_right_sidebar et_divi_theme et-db")
+</script>
+<div id="page-container">
+
+	<div id="et-main-area">
+
+		<div id="main-content">
+			<div class="container">
+				<div id="content-area" class="clearfix">
+					<div id="left-area">
+
+						<div id="chdiv00">
+							{% for a in ct_blogs %}
+							<article id="post-8968"
+								class="et_pb_post post-8968 post type-post status-publish format-standard has-post-thumbnail hentry category-mbbs-admission-2023-24 category-medical-colleges-in-maharastra tag-mbbs-in-maharahtra tag-top-private-colleges-for-mbbs-in-maharashtra-2023-24">
+
+								<a class="entry-featured-image-url" href="/{{a.slug}}">
+									<img src="{{a.blog_image.url}}" alt="{{a.blog_alt_name }}" class="" width="1080"
+										height="675" srcset="{{a.blog_image.url}}"
+										sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 1080px, 100vw"
+										loading="lazy"> </a>
+
+								<h2 class="entry-title"><a href="/blogs/{{a.slug}}">{{a.blog_title}}</a></h2>
+
+								<p class="post-meta"> by <span class="author vcard"><a href="#"
+											title="Posts by Future Education" rel="author">Future Education</a></span> |
+									<span class="published">{{a.date}}</span> |
+								</p>
+								<p>{{a.blog_small_content |safe}}</p>
+							</article>
+							{% empty %}
+								<h1 class="text-center fs-5 fw-bold my-2xl">No data found</h1>
+							{% endfor %}
+
+						</div>
+						
+						{% comment %} {% endif %} {% endcomment %}
+
+
+
+						{% comment %} paginetor {% endcomment %}
+
+						
+					</div>
+					{% include "need_help_addmitionform.html" %}
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+
+{% endblock mainbody %}

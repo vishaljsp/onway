@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="/static/css/mbbs_amenia.css">
+
+<section id="comment-wrap">
+
+    <h1 id="comments" class="page_title">Comments</h1>
+
+    <ol class="commentlist clearfix">
+       {% for a in comments %}
+        <li class="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-303">
+            <article id="comment-303" class="comment-body clearfix">
+                <div class="comment_avatar">
+                    <img alt="Charan Baloju"
+                        src="https://secure.gravatar.com/avatar/e975aa0d19b52084f3d2aafac9315ff3?s=80&amp;d=mm&amp;r=g"
+                        srcset="https://secure.gravatar.com/avatar/e975aa0d19b52084f3d2aafac9315ff3?s=160&amp;d=mm&amp;r=g 2x"
+                        class="avatar avatar-80 photo" height="80" width="80" loading="lazy" decoding="async">
+                </div>
+
+                <div class="comment_postinfo">
+                    <span class="fn">{{a.name}}</span> <span class="comment_date">
+                        on {{a.date}}</span>
+                </div>
+
+                <div class="comment_area">
+
+                    <div class="comment-content clearfix">
+                        <p>{{a.commnet}}</p>
+                        <span class="reply-container"><a rel="nofollow" class="comment-reply-link" href="#comment-303"
+                                data-commentid="303" data-postid="4798" data-belowelement="comment-303"
+                                data-respondelement="respond" data-replyto="Reply to Charan Baloju"
+                                aria-label="Reply to Charan Baloju">Reply</a></span>
+                    </div>
+                </div>
+            </article>
+        </li><!-- #comment-## -->
+        {% endfor %}
+    </ol>
+
+
+    {% comment %} coment form  {% endcomment %}
+    <div class="w-50">
+        <form action="" method="post">
+            {% csrf_token %}
+            <span id="xmerr" class="text-danger"></span>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comment *</label>
+            <textarea class="form-control" id="coment" rows="3"></textarea>
+        </div>
+        <div class="mb-8">
+            <label for="exampleFormControlInput1" class="form-label">Name *</label>
+            <input type="text" class="form-control p-2" id="name" placeholder="Enter Name *">
+        </div>
+        <div class="mb-12">
+            <label for="exampleFormControlInput1" class="form-label">Email address *</label>
+            <input type="email" class="form-control p-2" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Website *</label>
+            <input type="email" class="form-control p-2" id="web" placeholder="Website *">
+        </div>
+        
+        <button type="button" onclick="cument()" class="btn btn-outline-primary">Comment Send</button>
+    </form>
+    </div>
+
+</section>

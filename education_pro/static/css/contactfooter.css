@@ -1,0 +1,349 @@
+div.et_pb_section.et_pb_section_0 {
+    background-image: url(/static/wp-content/uploads/2020/08/futeducation-contact.png) !important;
+    margin-top:-3rem
+}
+
+.et_pb_section_0.et_pb_section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-bottom: 41px
+}
+
+.et_pb_row_0.et_pb_row {
+    padding-bottom: 16px !important;
+    padding-bottom: 16px
+}
+
+.et_pb_row_2,
+body #page-container .et-db #et-boc .et-l .et_pb_row_2.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_2.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_2.et_pb_row,
+.et_pb_row_0,
+body #page-container .et-db #et-boc .et-l .et_pb_row_0.et_pb_row,
+body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_0.et_pb_row,
+body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_0.et_pb_row {
+    max-width: 1280px
+}
+
+.et_pb_text_0 {
+    line-height: 2em;
+    font-size: 18px;
+    line-height: 2em;
+    max-width: 600px
+}
+
+.et_pb_text_0 h1 {
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    font-size: 60px;
+    line-height: 1.3em
+}
+
+.et_pb_section_1 {
+    min-height: 698px
+}
+
+.et_pb_section_1.et_pb_section {
+    padding-top: 54px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    margin-bottom: 0px
+}
+
+.et_pb_row_2 {
+    background-color: #ffffff;
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden;
+    box-shadow: 0px 50px 80px 0px rgba(15, 19, 25, 0.1)
+}
+
+.et_pb_row_2.et_pb_row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: -48px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.et_pb_text_2 {
+    line-height: 2em;
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    line-height: 2em;
+    min-height: 56px;
+    margin-top: -56px !important
+}
+
+.et_pb_text_2 h1 {
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif
+}
+
+.et_pb_text_2 h2 {
+    font-size: 50px;
+    color: #000000 !important;
+    line-height: 1.3em
+}
+
+.et_pb_text_2 h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffdaa4 !important;
+    letter-spacing: 2px;
+    line-height: 2em
+}
+
+.et_pb_contact_form_0.et_pb_contact_form_container .input:-ms-input-placeholder {
+    line-height: 2em
+}
+
+.et_pb_blurb_4.et_pb_blurb p,
+.et_pb_blurb_1.et_pb_blurb p,
+.et_pb_blurb_2.et_pb_blurb p,
+.et_pb_blurb_0.et_pb_blurb p,
+.et_pb_blurb_3.et_pb_blurb p,
+.et_pb_contact_form_0.et_pb_contact_form_container .input,
+.et_pb_contact_form_0.et_pb_contact_form_container .input::placeholder,
+.et_pb_contact_form_0.et_pb_contact_form_container .input[type=checkbox]+label,
+.et_pb_contact_form_0.et_pb_contact_form_container .input[type=radio]+label,
+.et_pb_blurb_6.et_pb_blurb p,
+.et_pb_blurb_5.et_pb_blurb p {
+    line-height: 2em
+}
+
+.et_pb_contact_form_0.et_pb_contact_form_container .input::-moz-placeholder {
+    line-height: 2em
+}
+
+.et_pb_contact_form_0.et_pb_contact_form_container .input::-webkit-input-placeholder {
+    line-height: 2em
+}
+
+.et_pb_contact_form_0.et_pb_contact_form_container .input,
+.et_pb_contact_form_0.et_pb_contact_form_container .input[type="checkbox"]+label i,
+.et_pb_contact_form_0.et_pb_contact_form_container .input[type="radio"]+label i {
+    border-radius: 3px 3px 3px 3px;
+    overflow: hidden
+}
+
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button {
+    color: #ffffff !important;
+    border-width: 10px !important;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    background-color: #cd5c5c !important
+}
+
+body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:after {
+    font-size: 1.6em
+}
+
+body.et_button_custom_icon #page-container .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:after {
+    font-size: 16px
+}
+
+.et_pb_contact_form_0 .input,
+.et_pb_contact_form_0 .input[type="checkbox"]+label i,
+.et_pb_contact_form_0 .input[type="radio"]+label i {
+    background-color: #f3f4f5
+}
+
+.et_pb_contact_form_0 .et_pb_contact_submit {
+    box-shadow: 0px 10px 30px 0px rgba(255, 77, 84, 0.24)
+}
+
+.et_pb_text_3 {
+    line-height: 2em;
+    font-size: 15px;
+    line-height: 2em
+}
+
+.et_pb_text_3 h3 {
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 1.4em
+}
+
+.et_pb_text_3 h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.21) !important;
+    letter-spacing: 2px;
+    line-height: 2em
+}
+
+.et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_0.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_3.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_3.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_5.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_5.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_1.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_1.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_6.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_6.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_4.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_4.et_pb_blurb .et_pb_module_header a,
+.et_pb_blurb_2.et_pb_blurb .et_pb_module_header,
+.et_pb_blurb_2.et_pb_blurb .et_pb_module_header a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6em
+}
+
+.et_pb_blurb_3.et_pb_blurb,
+.et_pb_blurb_4.et_pb_blurb,
+.et_pb_blurb_0.et_pb_blurb {
+    font-size: 15px;
+    line-height: 2em;
+    padding-top: 0px !important;
+    margin-top: 0px !important
+}
+
+.et_pb_blurb_4 .et_pb_blurb_content,
+.et_pb_blurb_2 .et_pb_blurb_content,
+.et_pb_blurb_6 .et_pb_blurb_content,
+.et_pb_blurb_3 .et_pb_blurb_content,
+.et_pb_blurb_5 .et_pb_blurb_content,
+.et_pb_blurb_1 .et_pb_blurb_content,
+.et_pb_blurb_0 .et_pb_blurb_content {
+    max-width: 1100px
+}
+
+.et_pb_blurb_2 .et-pb-icon,
+.et_pb_blurb_5 .et-pb-icon,
+.et_pb_blurb_4 .et-pb-icon,
+.et_pb_blurb_0 .et-pb-icon,
+.et_pb_blurb_3 .et-pb-icon,
+.et_pb_blurb_1 .et-pb-icon,
+.et_pb_blurb_6 .et-pb-icon {
+    color: #1d2530;
+    font-family: ETmodules !important;
+    font-weight: 400 !important
+}
+
+.et_pb_blurb_1.et_pb_blurb,
+.et_pb_blurb_5.et_pb_blurb,
+.et_pb_blurb_6.et_pb_blurb,
+.et_pb_blurb_2.et_pb_blurb {
+    font-size: 15px;
+    line-height: 2em
+}
+
+.et_pb_text_4 h2 {
+    color: #2776aa !important
+}
+
+.et_pb_column_2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px
+}
+
+.et_pb_contact_form_container .et_pb_contact_field_2.et_pb_contact_field {
+    margin-bottom: 40px !important
+}
+
+.et_pb_text_0.et_pb_module {
+    margin-left: auto !important;
+    margin-right: auto !important
+}
+
+@media only screen and (max-width:980px) {
+    .et_pb_section_0.et_pb_section {
+        padding-top: 140px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 0px
+    }
+
+    .et_pb_text_0 h1 {
+        font-size: 50px
+    }
+
+    .et_pb_text_2 h2 {
+        font-size: 40px
+    }
+
+    body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:after {
+        display: inline-block;
+        opacity: 0
+    }
+
+    body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover:after {
+        opacity: 1
+    }
+
+    .et_pb_column_2 {
+        padding-right: 40px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .et_pb_section_0.et_pb_section {
+        padding-top: 120px
+    }
+
+    .et_pb_text_0 {
+        font-size: 15px;
+        line-height: 1.6em
+    }
+
+    .et_pb_text_0 h1 {
+        font-size: 32px
+    }
+
+    .et_pb_text_2 h2 {
+        font-size: 30px
+    }
+
+    body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:after {
+        display: inline-block;
+        opacity: 0
+    }
+
+    body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover:after {
+        opacity: 1
+    }
+
+    .et_pb_blurb_5.et_pb_blurb p,
+    .et_pb_blurb_4.et_pb_blurb p,
+    .et_pb_blurb_3.et_pb_blurb p,
+    .et_pb_blurb_2.et_pb_blurb p,
+    .et_pb_blurb_1.et_pb_blurb p,
+    .et_pb_text_3,
+    .et_pb_blurb_0.et_pb_blurb p,
+    .et_pb_blurb_6.et_pb_blurb p {
+        line-height: 1.6em
+    }
+
+    .et_pb_blurb_1.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_1.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_2.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_2.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_3.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_3.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_4.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_4.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_5.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_5.et_pb_blurb .et_pb_module_header a,
+    .et_pb_blurb_6.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_6.et_pb_blurb .et_pb_module_header a {
+        font-size: 15px
+    }
+
+    .et_pb_column_2 {
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px
+    }
+}
